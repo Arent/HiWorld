@@ -9,6 +9,11 @@
 #import "ViewControler2.h"
 
 @implementation ViewControler2
+
+-(IBAction)slidetheslider:(id)sender{
+    labelSliderGuesses.text =  [NSString stringWithFormat:@"%1.0f", sliderGuesses.value *25 +1 ];
+    labelSliderWords.text =  [NSString stringWithFormat:@"%1.0f", sliderWords.value *30 +1 ];
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.

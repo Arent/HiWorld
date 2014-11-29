@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		850E05271A24BEC100F89EA8 /* words.plist in Resources */ = {isa = PBXBuildFile; fileRef = 850E05261A24BEC100F89EA8 /* words.plist */; };
+		850E05291A24E49300F89EA8 /* DefaultPreferences.plist in Resources */ = {isa = PBXBuildFile; fileRef = 850E05281A24E49300F89EA8 /* DefaultPreferences.plist */; };
 		85AA36551A0CE94A00FA542C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85AA36541A0CE94A00FA542C /* main.m */; };
 		85AA36581A0CE94A00FA542C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85AA36571A0CE94A00FA542C /* AppDelegate.m */; };
 		85AA365B1A0CE94A00FA542C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85AA365A1A0CE94A00FA542C /* ViewController.m */; };
@@ -28,8 +30,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		850E05261A24BEC100F89EA8 /* words.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = words.plist; sourceTree = "<group>"; };
+		850E05281A24E49300F89EA8 /* DefaultPreferences.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DefaultPreferences.plist; sourceTree = "<group>"; };
 		85AA364F1A0CE94A00FA542C /* HiWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HiWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		85AA36531A0CE94A00FA542C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85AA36541A0CE94A00FA542C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		85AA36561A0CE94A00FA542C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		85AA36571A0CE94A00FA542C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -101,8 +104,9 @@
 		85AA36521A0CE94A00FA542C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				85AA36531A0CE94A00FA542C /* Info.plist */,
 				85AA36541A0CE94A00FA542C /* main.m */,
+				850E05261A24BEC100F89EA8 /* words.plist */,
+				850E05281A24E49300F89EA8 /* DefaultPreferences.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -204,6 +208,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				850E05271A24BEC100F89EA8 /* words.plist in Resources */,
+				850E05291A24E49300F89EA8 /* DefaultPreferences.plist in Resources */,
 				85AA365E1A0CE94A00FA542C /* Main.storyboard in Resources */,
 				85AA36631A0CE94A00FA542C /* LaunchScreen.xib in Resources */,
 				85AA36601A0CE94A00FA542C /* Images.xcassets in Resources */,
@@ -418,6 +424,7 @@
 				85AA36741A0CE94A00FA542C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		85AA36751A0CE94A00FA542C /* Build configuration list for PBXNativeTarget "HiWorldTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +433,7 @@
 				85AA36771A0CE94A00FA542C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

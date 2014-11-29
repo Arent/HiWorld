@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewControler2 : UIViewController
-
+@interface ViewControler2 : UIViewController{
+    
+    IBOutlet UISlider *sliderGuesses;
+    IBOutlet UILabel *labelSliderGuesses;
+    IBOutlet UISlider *sliderWords;
+    IBOutlet UILabel *labelSliderWords;
+}
+-(IBAction)slidetheslider:(id)sender;
 @end

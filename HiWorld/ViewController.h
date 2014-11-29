@@ -8,7 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
+    IBOutlet UITextField *textField;
+    IBOutlet UILabel *userOutput;
+    IBOutlet UILabel *outputGuesses;
+}
+    
+@property (strong, nonatomic) IBOutlet UITextField *textField;
+@property (strong, nonatomic) IBOutlet UILabel *userOutput;
+@property (strong, nonatomic) IBOutlet UILabel *outputGuesses;
 
 
 @end
